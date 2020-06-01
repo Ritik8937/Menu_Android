@@ -10,21 +10,21 @@ Here we will be take 3 files Main Activity and Menu main xml file where we will 
 
 # Main Activity Java file 
 
-package com.example.application;
+    package com.example.application;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.EditText;
-import android.widget.Toast;
-
-
+    import androidx.appcompat.app.AppCompatActivity;
+    import androidx.appcompat.widget.Toolbar;
+    import android.os.Bundle;
+    import android.view.Menu;
+    import android.view.MenuItem;
+    import android.view.View;
+    import android.widget.EditText;
+    import android.widget.Toast;
 
 
-public class MainActivity extends AppCompatActivity {
+
+
+    public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -60,8 +60,8 @@ public class MainActivity extends AppCompatActivity {
 
 # Main Activity xml
 
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/customLayout"
@@ -72,8 +72,11 @@ public class MainActivity extends AppCompatActivity {
     
  # Menu_main xml
  
- <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:tools="http://schemas.android.com/tools"
+ 
+ 
+ 
+    <?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:tools="http://schemas.android.com/tools"
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto">
 
